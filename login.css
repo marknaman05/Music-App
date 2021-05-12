@@ -3,3 +3,127 @@
     padding: 0;
     box-sizing: border-box;
 }
+.login-page {
+    min-height: 100vh;
+    background-color: #44318d;
+}
+.nav {
+    height: 3.5rem;
+    width: 100vw;
+    background-color: #2a1b3d;
+}
+.login-page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.trending-side {
+    height: 34.5rem;
+    width: 75vw;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.trending-list {
+    height: 34.5rem;
+    width: 30vw;
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.trending-element {
+    height: 5rem;
+    width: 20rem;
+    margin: 5px;
+    margin-left: 0;
+    border-top-right-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+    background-color: #d83f87;
+}
+.trending-element:nth-child(2) {
+    transform: translateX(-3rem);
+}
+.trending-element:nth-child(3) {
+    transform: translateX(-6rem);
+}
+.trending-player {
+    height: 34.5rem;
+    width: 45vw;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player_main {
+    height: 27rem;
+    width: 20rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+}
+.player-image {
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    background-color: white;
+}
+.player-song-name {
+    margin-top: 1rem;
+    height: 3rem;
+    width: 17rem;
+    /* background-color: azure; */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.player-settings {
+    height: 5rem;
+    width: 17rem;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.play-line {
+    height: 4px;
+    border-radius: 2px;
+    width: 17rem;
+    background-color: black;
+}
+.play-options {
+    height: 2rem;
+    width: 17rem;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-option:nth-child(2) {
+    display: none;
+}
+.play-option {
+    font-size: 30px;
+}
+.login-side {
+    height: 34.5rem;
+    width: 25vw;
+    background-color: #715bbe;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* ------ */
+    text-align: center;
+    font-size: 30px;
+    /* ------ */
+}
