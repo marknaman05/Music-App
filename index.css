@@ -4,8 +4,144 @@
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    #44318d 20%,
+    rgb(201, 201, 100)
+  );
+}
+
+/*Nav start*/
+.nav {
+  height: 5rem;
+  background-color: #2a1b3d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*NAV IS COMMON/
+/*Nav elements*/
+.logo-image {
+  margin-top: 0.7vh;
+  margin-left: 0.7vw;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.nav-tabs {
+  display: inline-flex;
+  align-items: flex-end;
+  margin-bottom: 2vh;
+}
+
+.nav-elements {
+  padding: 0px 20px;
+  margin: 0px 10px;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: whitesmoke;
+  border-radius: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-elements:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.profile-pic {
+  margin-top: 0.7vh;
+  margin-right: 0.7vw;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: white;
+}
+/*Nav end*/
+
 /* NAMAN'S PART START*/
 /* NAMANS'S PART END */
 
 /* SHLOK'S PART START */
+/*This will show up only when full music player is open*/
+
+.musicUi {
+  display: none;
+}
+
+/*Music player ui*/
+/*left part start*/
+.music-player {
+  background-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  top: 13vh;
+  margin: 0px 70px;
+  height: 74.4vh;
+  border-radius: 40px 40px 0px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.music-controls {
+  width: 50%;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow-down {
+  font-size: 65px;
+  padding: 0px 40px;
+  color: white;
+  font-weight: 100;
+}
+
+.box-image {
+  margin: 20px 40px;
+  width: 75%;
+  height: 250px;
+  margin-left: 90px;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.controls {
+  margin: auto;
+}
+
+.controls .fa {
+  padding: 30px;
+  font-size: x-large;
+}
+/*left part end*/
+
+/*right part*/
+.queue {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.queue-title {
+  font-size: 45px;
+  color: black;
+  padding: 5px;
+  padding-left: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.queue-list-box {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  height: 70px;
+  width: 80%;
+  margin: auto;
+}
+/*right part end*/
+/*Music player ui end*/
 /* SHLOK'S PART END */
