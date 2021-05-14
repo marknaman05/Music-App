@@ -4,39 +4,35 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google-signin-client_id" content="132873793273-jga64pb0l5nd25g2kjsr8rqm10tpt9pe.apps.googleusercontent.com" />
         <link rel="stylesheet" href="./login.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet" />
         <script src="https://kit.fontawesome.com/f049d5e342.js" crossorigin="anonymous"></script>
         <script defer src="./login.js"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
         <title>Document</title>
     </head>
     <body>
         <div class="login-page">
             <div class="nav">
-                <div class="logo"></div>
+                <div><img class="logo-img" src="./images/logo.png" alt="logo" /></div>
             </div>
             <div class="login-page-container">
-                <div class="trending-side">
-                    <div class="trending-list">
-                        <div class="trending-element"></div>
-                        <div class="trending-element"></div>
-                        <div class="trending-element"></div>
-                    </div>
-                    <div class="trending-player">
-                        <div class="player_main">
-                            <div class="player-image"></div>
-                            <div class="player-song-name">RAP GOD</div>
-                            <div class="player-settings">
-                                <div class="play-line"></div>
-                                <div class="play-options">
-                                    <div class="play-option"><i class="fas fa-play"></i></div>
-                                    <div class="play-option"><i class="fas fa-pause"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <img class="poster-side" src="./images/Poster Music-app.png" alt="" />
                 <div class="login-side">
-                    <a href="./index.html">TEMPORARY LINK to index.html</a>
+                    <div class="apptext">
+                        <div class="app-name">Music Pro X</div>
+                        <div class="makers-org">A DevSoc Project</div>
+                    </div>
+                    <div class="logintext">
+                        <div class="bitsdisclaimer">
+                            <div class="bits-disclaimer">Sign in using</div>
+                            <div class="bits-disclaimer">BITS mail</div>
+                        </div>
+                        <div class="g-signin2" data-width="310" data-height="70" data-onsuccess="onSignIn"></div>
+                        <button class="logoutbutton" onclick="signOut();">Sign out</button>
+                    </div>
                 </div>
             </div>
         </div>
