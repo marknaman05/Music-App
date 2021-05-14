@@ -116,6 +116,30 @@ body {
 /*Nav end*/
 
 /* NAMAN'S PART START*/
+
+.box {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.poster {
+  width: 60%;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("https://images.pexels.com/photos/6671962/pexels-photo-6671962.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-6671962.jpg&fm=jpg");
+  background-size: 100% 100%;
+  box-shadow: 10px 10px;
+  border-radius: 16px;
+  animation: slider 9s infinite linear;
+}
+
 /* NAMANS'S PART END */
 
 /* SHLOK'S PART START */
